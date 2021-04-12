@@ -47,11 +47,6 @@
   margin-top: 200px;
 }
 
-
-
-
-
-
 .main-content {
   text-align: center;
   width: 100%;
@@ -91,11 +86,6 @@ header, .project:not(:last-child) {
     margin: 0 auto;
   }
   
-/* .login, .signup {
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-} */
 
 .main-nav {
   height: 100%;
@@ -103,10 +93,7 @@ header, .project:not(:last-child) {
   justify-content: space-around;
 }
 
-/* .row {
-  justify-content: space-around;
-  align-items: space;
-} */
+
 
 .login-form, .signup-form {
   width: 25vw;
@@ -140,7 +127,6 @@ header, .project:not(:last-child) {
 .create-acc-txt {
   text-align:center;
   font-size: 24px;
-  /* margin-right: -20px; ***** New code after pull, not sure if we need it, will comment out so it doesn't affect mine.*/ 
 }
 
 /* Side nav & Home Page content*/
@@ -182,6 +168,11 @@ footer {
   padding-top: 0.5rem;
   line-height: 1rem;
   text-align: center;
+}
+
+.content-container {
+  margin-left: 15px;
+  margin-top: 15px;
 }
 
 /* nav a {

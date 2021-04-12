@@ -114,6 +114,32 @@
           <h5>Schedule: </h5>
           <h5>ISO Band/User: </h5>
         </div>
+    <form class="form new-post-form">
+      <div class="form-group">
+        <label for="post-name">Title:</label>
+        <input class="form-input" type="text" id="post-title" name="post-title" />
+      </div>
+      <div class="form-group">
+        <label for="post-body">Post:</label>
+        <textarea class="form-input" id="post-body" name="post-body"></textarea>
+      </div>
+      <div class="form-group">
+        <button type="submit" id="submit" class="btn btn-primary">Create</button>
+      </div>
+    </form>
+  </div>
+
+  {{#if posts.length}}
+  <div class="col-md-12 post-list">
+    <h3>Current Posts:</h3>
+
+    {{#each posts as |post|}}
+    <div class="row mb-2">
+      <div class="col-md-10">
+        <h4><a href="/{{post.id}}">{{post.name}}</a></h4>
+      </div>
+      <div class="col-md-4">
+        <button class="btn btn-sm btn-danger" data-id="{{post.posting}}">DELETE</button>
       </div>
     </div>
   </div>
@@ -124,4 +150,4 @@
 </section>
 
 
-<script src="./js/profile.js"></script>
+<script src="./js/writePost.js"></script>
