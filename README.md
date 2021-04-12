@@ -21,8 +21,8 @@ Build-a-Band is an MVC for music related classifieds. It allows single users or 
   
 ## Links
  
-* [Github Repository](https://github.com/Danomiterock/Build-a-Band/pull/14) 
-* Heroku App: 
+* [Github Repository](https://github.com/Danomiterock/Build-a-Band/) 
+* [Heroku App](https://build-a-band-meet-make-music.herokuapp.com/)
  
 ## User Story
 
@@ -76,19 +76,19 @@ Bulma
   
 ## Mockups and Screenshots
 ### Wireframes
-![Home Page](./Wireframe/1-HomePage.png)
+![Home Page](./Wireframe/1-HomePage(home).png)
 Home Page - First view before sign in
 
-![Sign In Page](./Wireframe/2-SignIn.png)
+![Sign In Page](./Wireframe/2-SignIn(login-signup).png)
 Sign In Page - Username and Password
 
-![Search Page](./Wireframe/3-Search.png)
+![Search Page](./Wireframe/3-Search(build-a-band).png)
 Search Page - First page after login
 
-![My Profile Page](./Wireframe/4-MyProfile.png)
+![My Profile Page](./Wireframe/4-MyProfile(dashboard).png)
 Profile Page - Personal Profile
 
-![Band Profile Page](./Wireframe/5-BandPage.png)
+![Band Profile Page](./Wireframe/5-BandPage(dashboard).png)
 Band Profile Page - Band Page and Profiles of Members
 
   
