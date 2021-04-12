@@ -26,10 +26,8 @@
 }
 
 .user-dashboard {
-  display: flex;
-  justify-content: center;
   background-color: #f0f0f0;
-  padding: 2rem;
+  box-sizing: border-box;
 }
 .tags{
   position: relative;
