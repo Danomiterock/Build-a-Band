@@ -116,4 +116,24 @@ router.get('/login-signup', (req, res) => {
   res.render('login-signup');
 });
 
+router.get('/404', (req, res) => {
+  // If the user is already logged in, redirect the request to another route
+  if (req.session.logged_in) {
+    res.redirect('/404');
+    return;
+  }
+
+  res.render('404');
+});
+
+router.get('/search', (req, res) => {
+  // If the user is already logged in, redirect the request to another route
+  if (req.session.logged_in) {
+    res.redirect('/search');
+    return;
+  }
+
+  res.render('search');
+});
+
 module.exports = router;
